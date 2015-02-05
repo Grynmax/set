@@ -1,0 +1,11 @@
+<application>
+  <component name="FileTypeManager" version="11">
+    <ignoreFiles list="CVS;SCCS;RCS;rcs;.DS_Store;.svn;.pyc;.pyo;*.pyc;*.pyo;.git;*.hprof;_svn;.hg;*.lib;*~;__pycache__;.bundle;*.rbc;" />
+    <extensionMap>
+      <mapping pattern="crontab.txt" type="PLAIN_TEXT" />
+      <mapping ext="locker" type="PLAIN_TEXT" />
+      <mapping pattern="*-nginx.conf" type="nginx file type" />
+    </extensionMap>
+    <setting name="fileTypeChangedCounter" value="12" />
+  </component>
+</application>

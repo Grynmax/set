@@ -1,0 +1,24 @@
+<application>
+  <component name="ApplicationTasksOptions">
+    <TaskOptions isEnabled="true">
+      <option name="arguments" value="assets" />
+      <option name="checkSyntaxErrors" value="true" />
+      <option name="description" value="After less compiler" />
+      <option name="exitCodeBehavior" value="ERROR" />
+      <option name="fileExtension" value="CSS files (syntax highlighting only)" />
+      <option name="immediateSync" value="true" />
+      <option name="name" value="Build Assets" />
+      <option name="output" value="" />
+      <option name="outputFilters">
+        <array />
+      </option>
+      <option name="outputFromStdout" value="false" />
+      <option name="passParentEnvs" value="true" />
+      <option name="program" value="/opt/www/bc/cli.php" />
+      <option name="scopeName" value="Assets" />
+      <option name="trackOnlyRoot" value="false" />
+      <option name="workingDir" value="/opt/www/bc" />
+      <envs />
+    </TaskOptions>
+  </component>
+</application>
