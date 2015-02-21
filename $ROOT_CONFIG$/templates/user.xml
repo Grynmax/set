@@ -39,4 +39,14 @@
       <option name="PHP Comment" value="true" />
     </context>
   </template>
+  <template name="WSA" value="    /**&#10;     * @WS($NAME$, '$DESC$')&#10;     * @WSLink('$LINK$')&#10;     * @WSP($optName$, '$optDesc$')&#10;     */&#10;public function $NAME$Action(){$END$}" description="Web Service Action" toReformat="true" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="DESC" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LINK" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="optName" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="optDesc" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
