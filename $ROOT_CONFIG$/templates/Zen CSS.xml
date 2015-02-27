@@ -1,0 +1,10 @@
+<templateSet group="Zen CSS">
+  <template name="m" value="margin:$VAR0$;" description="margin:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+  <template name="p" value="padding:$VAR0$;" description="padding:...;" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR0" expression="" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context />
+  </template>
+</templateSet>
