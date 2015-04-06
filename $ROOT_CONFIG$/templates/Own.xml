@@ -1,0 +1,79 @@
+<templateSet group="Own">
+  <template name="ctf" value="/** @property   $TYPE$ */&#10;public $FIELD$;" description="Table Field" toReformat="true" toShortenFQNames="true">
+    <variable name="TYPE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="FIELD" expression="" defaultValue="$" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="inpT" value="&lt;label for=&quot;$NAME$&quot;&gt;$LABEL$&lt;/label&gt;&#10;&lt;input type=&quot;text&quot; id=&quot;$NAME$&quot; name=&quot;$NAME$&quot; placeholder=&quot;$LABEL$&quot;/&gt;" toReformat="true" toShortenFQNames="true">
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+      <option name="PHP" value="false" />
+    </context>
+  </template>
+  <template name="inpC" value="&lt;input type=&quot;checkbox&quot; id=&quot;$ID$&quot; name=&quot;$NAME$&quot; value=&quot;$VALUE$&quot; /&gt;&#10;&lt;label for=&quot;$ID$&quot;&gt;$LABEL$&lt;/label&gt;&lt;br /&gt;" toReformat="false" toShortenFQNames="true">
+    <variable name="ID" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VALUE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="LABEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="pmmeta" value="/**&#10;* Get DataBase name &#10;* @return string&#10;*/&#10;    public function getSchema() {&#10;        return '$BASE$';&#10;    }&#10;&#10;/**&#10;* Get Table name &#10;* @return string&#10;*/&#10;    public function getSource()&#10;    {&#10;        return '$TABLE$';&#10;    }" toReformat="true" toShortenFQNames="true">
+    <variable name="BASE" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="TABLE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pmact" value="/**&#10;* @Get(&quot;/$URL$&quot;, name=&quot;$NAME$&quot;)&#10;*/&#10;public function $ACTION$Action() {&#10;    &#10;}" toReformat="true" toShortenFQNames="true">
+    <variable name="URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ACTION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+      <option name="PHP Comment" value="false" />
+    </context>
+  </template>
+  <template name="pinit" value="    public function initialize()&#10;    {&#10;        &#10;    }&#10;" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="pmrel" value="$this-&gt;hasMany('id', 'PApp\\Models\\Mod$MODEL$', '$KEY$', array('alias' =&gt; '$ALIAS$'));" toReformat="true" toShortenFQNames="true">
+    <variable name="MODEL" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="KEY" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ALIAS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="initModBel" value="$this-&gt;belongsTo($FIELDS$, $MODEL$, $REFFIELDS$, $OPTIONS$);" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELDS" expression="" defaultValue="'id'" alwaysStopAt="true" />
+    <variable name="MODEL" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="REFFIELDS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="OPTIONS" expression="" defaultValue="array('')" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="tableFields" value="&#10;$TEXT$" toReformat="true" toShortenFQNames="true">
+    <variable name="TEXT" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="CSM" value=" * @method static $MODEL$ findById($id)&#10; * @method static $MODEL$ findFirst($parameters = null)&#10; * @method static $MODEL$[] find($parameters = null)" description="Collection Static methods" toReformat="true" toShortenFQNames="true">
+    <variable name="MODEL" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="false" />
+      <option name="PHP Comment" value="true" />
+    </context>
+  </template>
+</templateSet>
