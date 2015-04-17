@@ -76,8 +76,8 @@
     <option name="recentPaths">
       <list>
         <option value="/opt/www/bc" />
-        <option value="/opt/www/stat" />
         <option value="/opt/www/CronManager" />
+        <option value="/opt/www/stat" />
         <option value="/opt/www/Chat" />
         <option value="/opt/www/GridFS" />
         <option value="/opt/www/EventServer" />
