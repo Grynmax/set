@@ -1,0 +1,5 @@
+<list display="Quick Run" description="Quick Run" readonly="false">
+  <action id="Tool_GM_FM-db" />
+  <action id="QuickList.$Separator$" />
+  <action id="Tool_GM_BC-Assets" />
+</list>
