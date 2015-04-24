@@ -145,8 +145,9 @@
     <recent_templates>
       <option name="RECENT_TEMPLATES">
         <value>
-          <list size="1">
-            <item index="0" class="java.lang.String" itemvalue="Phalcon Model" />
+          <list size="2">
+            <item index="0" class="java.lang.String" itemvalue="Mail tmpl" />
+            <item index="1" class="java.lang.String" itemvalue="Phalcon Model" />
           </list>
         </value>
       </option>
