@@ -146,8 +146,8 @@
       <option name="RECENT_TEMPLATES">
         <value>
           <list size="2">
-            <item index="0" class="java.lang.String" itemvalue="Mail tmpl" />
-            <item index="1" class="java.lang.String" itemvalue="Phalcon Model" />
+            <item index="0" class="java.lang.String" itemvalue="Phalcon Model" />
+            <item index="1" class="java.lang.String" itemvalue="Mail tmpl" />
           </list>
         </value>
       </option>
